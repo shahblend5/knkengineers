@@ -1,0 +1,30 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_f7838e13d2f280d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f7838e13d2f280d1 | /usr/bin/gzip >> ./erp.duckerp.com/private/backups/20240702_180002-erp_duckerp_com-database.sql.gz
+
+Backup Summary for erp.duckerp.com at 2024-07-02 18:00:03.964927
+Config  : ./erp.duckerp.com/private/backups/20240702_180002-erp_duckerp_com-site_config_backup.json 94.0B
+Database: ./erp.duckerp.com/private/backups/20240702_180002-erp_duckerp_com-database.sql.gz         784.7KiB
+Backup for Site erp.duckerp.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f7838e13d2f280d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f7838e13d2f280d1 | /usr/bin/gzip >> ./erp.duckerp.com/private/backups/20240703_120002-erp_duckerp_com-database.sql.gz
+
+Backup Summary for erp.duckerp.com at 2024-07-03 12:00:03.985386
+Config  : ./erp.duckerp.com/private/backups/20240703_120002-erp_duckerp_com-site_config_backup.json 94.0B
+Database: ./erp.duckerp.com/private/backups/20240703_120002-erp_duckerp_com-database.sql.gz         792.3KiB
+Backup for Site erp.duckerp.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f7838e13d2f280d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f7838e13d2f280d1 | /usr/bin/gzip >> ./erp.duckerp.com/private/backups/20240703_180002-erp_duckerp_com-database.sql.gz
+
+Backup Summary for erp.duckerp.com at 2024-07-03 18:00:03.660287
+Config  : ./erp.duckerp.com/private/backups/20240703_180002-erp_duckerp_com-site_config_backup.json 94.0B
+Database: ./erp.duckerp.com/private/backups/20240703_180002-erp_duckerp_com-database.sql.gz         800.8KiB
+Backup for Site erp.duckerp.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f7838e13d2f280d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f7838e13d2f280d1 | /usr/bin/gzip >> ./erp.duckerp.com/private/backups/20240705_120002-erp_duckerp_com-database.sql.gz
+
+Backup Summary for erp.duckerp.com at 2024-07-05 12:00:03.907302
+Config  : ./erp.duckerp.com/private/backups/20240705_120002-erp_duckerp_com-site_config_backup.json 94.0B
+Database: ./erp.duckerp.com/private/backups/20240705_120002-erp_duckerp_com-database.sql.gz         806.4KiB
+Backup for Site erp.duckerp.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f7838e13d2f280d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f7838e13d2f280d1 | /usr/bin/gzip >> ./erp.duckerp.com/private/backups/20240829_120001-erp_duckerp_com-database.sql.gz
+
+Backup Summary for erp.duckerp.com at 2024-08-29 12:00:03.115743
+Config  : ./erp.duckerp.com/private/backups/20240829_120001-erp_duckerp_com-site_config_backup.json 94.0B
+Database: ./erp.duckerp.com/private/backups/20240829_120001-erp_duckerp_com-database.sql.gz         786.3KiB
+Backup for Site erp.duckerp.com has been successfully completed
